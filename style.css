@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cv {
+    width: 210mm;
+    height: 297mm;
+    margin: auto;
+    padding: 20mm;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    color: navy;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+@media print {
+    .cv {
+        box-shadow: none;
+        margin: 0;
+        width: 100%;
+    }
+}
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: darkorchid;
+    margin-bottom: 5px;
+}
+
+.project p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.project ul {
+    margin-top: 0;
+}
+
+.project ul li {
+    margin-bottom: 5px;
+}
