@@ -3,10 +3,9 @@ body {
 }
 
 .cv {
-    width: 210mm;
-    height: 297mm;
+   
     margin: auto;
-    padding: 20mm;
+    padding: 10mm;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background: white;
     box-sizing: border-box;
